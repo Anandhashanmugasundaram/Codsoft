@@ -11,6 +11,8 @@ body{
 
 }
 
+
+
 .navbar{
 
   display        : flex;
@@ -118,13 +120,20 @@ font-size: 2.5rem;
 .education img{
     padding: 5px;
 }
+.education:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
 .experience{
     border       : 2px solid rgb(5, 5, 5);
     border-radius: 10px;
     width        : 350px;
     height       : 180px;
     text-align   : center;
+
    
+}
+.experience:hover{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 .experience img{
     padding: 5px;
@@ -141,8 +150,16 @@ font-size: 2.5rem;
 }
 .aboutme{
     text-align: center  ;
+  
+    background-color: rgb(223, 223, 223);
+    color: black;
+ 
 }
-
+.aboutme:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
 .miniproject{
       /* border: 5px solid yellow; */
     width: 800px;
@@ -163,8 +180,16 @@ font-size: 2.5rem;
 
 .section-title{
       /* border: 2px solid rgb(255, 5, 5); */
+      background-color: rgb(223, 223, 223);
+    color: black;
     text-align: center;
     font-size : 2.3rem;
+}
+.section-title:hover{
+   
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
 .skills_conatiner{
     
@@ -189,6 +214,10 @@ font-size: 2.5rem;
     box-shadow     : rgba(0, 0, 0, 0.35) 0px 5px 15px;
     width          : 80%;
     margin         : 2%;
+}
+.skills_data:hover{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .skill_icon{
     font-size   : 2rem;
@@ -224,6 +253,9 @@ font-size: 2.5rem;
     width: 70%;
  
 }
+.skills_mern{
+    width: 40%;
+}
 .skills_des{
  position: relative;
  left    : 2%;
@@ -246,6 +278,14 @@ font-size: 2.5rem;
 .projects_section h1{
     text-align: center;
     font-size: 2rem;
+    background-color: rgb(223, 223, 223);
+    color: black;
+ 
+}
+.projects_section h1:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
 }
 .overall{
  
@@ -271,6 +311,7 @@ font-size: 2.5rem;
  height: 450px;
 
 }
+
 .projects_card:hover{
 
     
@@ -365,6 +406,9 @@ font-size: 1.5rem;
     /* border: 2px solid rgb(255, 38, 0); */
     
 }
+.footer:hover{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
 .footer img{
     height: 30px;
     width: 45px;
@@ -372,6 +416,10 @@ font-size: 1.5rem;
 }
 .footer h3{
     padding: 5px;
+}
+.express{
+    height: 13px;
+    width: 13px;
 }
 @media screen and (max-width:650px) {
  
@@ -467,6 +515,7 @@ z-index: 1;
 
 
 }
+
 .skill_headspara{
 width: 150%;
 position: relative;
